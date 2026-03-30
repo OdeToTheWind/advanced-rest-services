@@ -1,0 +1,32 @@
+{
+  "name": "advanced-rest-services",
+  "version": "1.0.0",
+  "description": "100 Days of Practice: Professional Showcase",
+  "private": true,
+  "workspaces": [
+    "demos/beginner/*",
+    "demos/intermediate/*",
+    "demos/advanced/*",
+    "demos/real-world/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OdeToTheWind/advanced-rest-services.git"
+  },
+  "keywords": [
+    "rest-api",
+    "nodejs",
+    "100-days-of-code",
+    "backend-development"
+  ],
+  "author": "Bhargavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OdeToTheWind/advanced-rest-services/issues"
+  },
+  "homepage": "https://github.com/OdeToTheWind/advanced-rest-services#readme"
+}
